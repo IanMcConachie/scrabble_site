@@ -1,0 +1,136 @@
+
+/*** Style Sheet For TENTATIVE TITLE ***/
+
+/** Tag Styles **/
+
+body {
+	margin 0;
+	padding-bottom: 30px;
+	font-family: 'Merriweather', serif;
+}
+
+.main-sec {
+	font-family: 'Merriweather', serif;
+}
+
+/** Class Styles **/
+
+.top-bar {
+	background-color: #8b0000;
+	color: white;
+	text-align: center;
+	height: 150px;
+	margin-bottom: 40px;
+}
+
+
+.site-title {
+	font-family: 'Oleo Script', cursive;
+	font-size: 4.5em;
+	padding-top: 20px;
+}
+
+
+.sub-title {
+	font-size: 3em;
+	padding-left: 5%;
+	padding-top: 35px;
+}
+
+.norm-text {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Timeline Styling */
+
+.timeline {
+	width: 90%;
+	margin: 0 auto;
+	height: 10px;
+	background: #d7ba89;
+	margin-top: 30px;
+}
+
+.tl-row {
+	padding-left: 7%;
+	padding-right: 7%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.tl-item {
+	background-color: #8b0000;
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-bottom: 20px solid #8b0000;
+  margin-left: 45%;
+  top: -4px;
+  position: relative;
+  top: -9px;
+}
+
+.tl-blurb {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Carousel Styling */
+
+.carousel {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 50px;
+}
+
+.carousel-item {
+	background-color: #8b0000;
+	height: 400px;
+}
+
+.car-img {
+	scale: 70%;
+	position: relative;
+	top: 20px;
+}
+
+.car-caption {
+	position: relative;
+	bottom: -50px;
+	height: 150px;
+	background-color: #d7ba89;
+}
+
+/* Banned Words Styling */
+
+.banned-row {
+	padding-right: 8%;
+	padding-left: 8%;
+}
+
+.banned-table {
+	margin-top: 50px;
+}
+
+.banned-blurb {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Banned Words Styling */
+
+.ref-list {
+	padding-left: 6%;
+}
