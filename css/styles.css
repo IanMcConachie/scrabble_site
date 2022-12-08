@@ -7,6 +7,7 @@ body {
 	margin 0;
 	padding-bottom: 30px;
 	font-family: 'Merriweather', serif;
+	overflow-x: hidden;
 }
 
 .main-sec {
@@ -54,9 +55,16 @@ body {
 	margin-top: 30px;
 }
 
-.tl-row {
+.tl-row-1 {
 	padding-left: 7%;
 	padding-right: 7%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.tl-row-2 {
+	padding-left: 15%;
+	padding-right: 15%;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
@@ -100,18 +108,66 @@ body {
 	height: 400px;
 }
 
-.car-img {
+.car-img-1 {
 	scale: 70%;
 	position: relative;
 	top: 20px;
 }
 
-.car-caption {
+.car-img-2 {
+	padding-left: 285px;
+	scale: 90%;
+	position: relative;
+	top: 12px;
+}
+
+.car-img-3 {
+	scale: 22%;
+  	position: relative;
+  	top: -540px;
+  	left: -122px;
+}
+
+.car-caption-1 {
 	position: relative;
 	bottom: -50px;
 	height: 150px;
 	background-color: #d7ba89;
+	text-align: center;
 }
+
+.car-caption-2 {
+	position: relative;
+	bottom: -30px;
+	height: 150px;
+	background-color: #d7ba89;
+	text-align: center;
+}
+
+.car-caption-3 {
+	position: relative;
+	height: 150px;
+	background-color: #d7ba89;
+	bottom: -254px;
+	text-align: center;
+}
+
+.dict-title {
+	color: white;
+	padding-top: 8px;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.dict-blurb {
+	color: white;
+	font-size: 0.95em;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: -5px;
+}
+
 
 /* Banned Words Styling */
 
@@ -129,8 +185,58 @@ body {
 }
 
 
-/* Banned Words Styling */
+.banned-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* Response Styling */
+
+.response-row {
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.resp-title {
+	font-size: 10em;
+}
+
+.pro {
+	color: green;
+	position: relative;
+	left: 35%;
+	font-size: 0.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+
+}
+
+.anti {
+	color: red;
+	position: relative;
+	left: 35%;
+	font-size: 0.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.resp {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Reference Styling */
 
 .ref-list {
-	padding-left: 6%;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.95em;
+
 }
+
+.ref-tag {
+	color: black;
+}
+
